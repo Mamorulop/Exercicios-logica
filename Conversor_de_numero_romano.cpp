@@ -8,7 +8,7 @@ struct Romano{
 
 int main() {
 	int tamanhoCaracter = 7;
-	char romano[tamanhoCaracter]; // a array tem 7 espaços 
+	char romano[tamanhoCaracter]; 
 	int valorRomano = 0;
 	int posicao;
 	int total = 0;
@@ -28,7 +28,7 @@ int main() {
 
 	printf("QUAL SEU NUMERO ROMANO?\n ");
 	// *!=* --> Significa diferente de "Numero escolhido" ex: != 1; --> Quer dizer que "Diferente de 1"
-	if (scanf("%s", romano) != 1); //LÊ APENAS UM ITEM //IA
+	if (scanf("%s", romano) != 1); 
 	
 		while (romano[valorRomano] != '\0'){ //IA
 			for (posicao = 0; posicao < 7; posicao++) {
@@ -50,7 +50,7 @@ int main() {
         		} else {
             	total += atual;
     }
-        valorRomano++; //passa próxima letra
+        valorRomano++; 
     }
       
     printf("Resultado: %d\n", total); 
